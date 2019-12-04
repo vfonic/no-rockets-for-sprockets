@@ -1,0 +1,121 @@
+/*!
+ * Hover.css (http://ianlunn.github.io/Hover/)
+ * Version: 2.1.1
+ * Author: Ian Lunn @IanLunn
+ * Author URL: http://ianlunn.co.uk/
+ * Github: https://github.com/IanLunn/Hover
+
+ * Made available under a MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+
+ * Hover.css Copyright Ian Lunn 2014. Generated with Sass.
+ */
+
+@import "options";
+@import "mixins";
+@import "hacks";
+
+@import "effects/2d-transitions/pulse-grow";
+@if $includeClasses {
+	.#{$nameSpace}-pulse-grow {
+		@include pulse-grow();
+	}
+}
+
+@import "effects/2d-transitions/bounce-in";
+@if $includeClasses {
+	.#{$nameSpace}-bounce-in {
+		@include bounce-in();
+	}
+}
+
+@import "effects/2d-transitions/grow-rotate";
+@if $includeClasses {
+	.#{$nameSpace}-grow-rotate {
+		@include grow-rotate();
+	}
+}
+
+@import "effects/2d-transitions/skew";
+@if $includeClasses {
+	.#{$nameSpace}-skew {
+		@include skew();
+	}
+}
+
+@import "effects/2d-transitions/skew-forward";
+@if $includeClasses {
+	.#{$nameSpace}-skew-forward {
+		@include skew-forward();
+	}
+}
+
+@import "effects/2d-transitions/wobble-vertical";
+@if $includeClasses {
+	.#{$nameSpace}-wobble-vertical {
+		@include wobble-vertical();
+	}
+}
+
+@import "effects/2d-transitions/wobble-horizontal";
+@if $includeClasses {
+	.#{$nameSpace}-wobble-horizontal {
+		@include wobble-horizontal();
+	}
+}
+
+@import "effects/2d-transitions/wobble-to-bottom-right";
+@if $includeClasses {
+	.#{$nameSpace}-wobble-to-bottom-right {
+	    @include wobble-to-bottom-right();
+	}
+}
+
+@import "effects/2d-transitions/wobble-to-top-right";
+@if $includeClasses {
+	.#{$nameSpace}-wobble-to-top-right {
+	    @include wobble-to-top-right();
+	}
+}
+
+@import "effects/2d-transitions/wobble-top";
+@if $includeClasses {
+	.#{$nameSpace}-wobble-top {
+		@include wobble-top();
+	}
+}
+
+@import "effects/2d-transitions/wobble-bottom";
+@if $includeClasses {
+	.#{$nameSpace}-wobble-bottom {
+		@include wobble-bottom();
+	}
+}
+
+@import "effects/2d-transitions/wobble-skew";
+@if $includeClasses {
+	.#{$nameSpace}-wobble-skew {
+	    @include wobble-skew();
+	}
+}
+
+@import "effects/2d-transitions/buzz-out";
+@if $includeClasses {
+	.#{$nameSpace}-buzz-out {
+	    @include buzz-out();
+	}
+}
+
+@import "effects/2d-transitions/forward";
+@if $includeClasses {
+	.#{$nameSpace}-forward {
+		@include forward();
+	}
+}
+
+@import "effects/shadow-and-glow-transitions/float-shadow";
+@if $includeClasses {
+	.#{$nameSpace}-float-shadow {
+		@include float-shadow();
+	}
+}

@@ -1,0 +1,13 @@
+#settings {
+  input + input,
+  button + button {
+    margin-left: 20px;
+  }
+  input[type="color"] + input[type="text"] {
+    margin-left: 0;
+  }
+  input[type="color"] {
+    height: 34px;
+    vertical-align: bottom;
+  }
+}

@@ -1,0 +1,10 @@
+/* Skew */
+@mixin skew {
+	@include hacks();
+	@include prefixed(transition-duration, $mediumDuration);
+	@include prefixed(transition-property, transform);
+
+	&.is-animated {
+		@include prefixed(transform, skew(-10deg));
+	}
+}
